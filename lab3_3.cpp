@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    float sum = 0,x = 1;
+    float sum = 0,x = 2;
     while(x <= 69)
     {
         sum = sum + (1/x);
