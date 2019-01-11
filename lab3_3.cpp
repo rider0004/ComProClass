@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main()
 {
     float sum = 0,x = 2;
@@ -8,5 +7,6 @@ int main()
         sum = sum + (1/x);
         x++;
     }
-    cout << sum;
+    std::cout << sum;
+    return 0;
 }
