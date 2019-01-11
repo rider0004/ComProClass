@@ -1,8 +1,8 @@
 #include <iostream>
 int main()
 {
-    float sum = 0,x = 2;
-    while(x <= 69)
+    float sum = 0,x = 6;
+    while(x <= 19)
     {
         sum = sum + (1/x);
         x++;
